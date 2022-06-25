@@ -1,0 +1,6 @@
+nosso trabalho vai ser aumentar o número de leds 
+que vamos controlar.
+
+vamos criar um semaforo.
+3 leds.
+3 portas.
