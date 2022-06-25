@@ -1,0 +1,17 @@
+comandos aula passada :
+pinMode(13,OUTPUT);
+digitalWrite(13,HIGH);
+delay(1000);
+=================================================
+    como declarar variaveis.
+iremos trabalhar com a porta 10.
+ela não possui nenhum led conectada a ela.
+
+fora de setup()e loop(), no inicio do programa
+é como se estivessemos trabalhando com variaveis 
+globais.
+
+declaração igual no c;
+int led=10;
+
+coloquei um resistor de 1kohm, para não deixar a corrente tender ao infinito.
