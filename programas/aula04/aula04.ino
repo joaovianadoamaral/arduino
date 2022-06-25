@@ -2,7 +2,11 @@
 #define amarelo 9
 #define vermelho 8
 
-void semaforo(void);
+//deu erro pq coloquei o mesmo nome nos define,cuidado 
+void f_vermelho(int tmp);
+void f_amarelo(int tmp);
+void f_verde(int tmp);
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(verde,OUTPUT);
@@ -12,17 +16,25 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-    semaforo();
+    f_vermelho(7);
+    f_verde(9);
+    f_amarelo(2);
 }
-
-void semaforo(void){
-  digitalWrite(verde,HIGH);
-  delay(2000);
-  digitalWrite(verde,LOW);
-  digitalWrite(amarelo,HIGH);
-  delay(2000);
-  digitalWrite(amarelo,LOW);
+void f_vermelho(int tmp){
   digitalWrite(vermelho,HIGH);
-  delay(2000);
+  digitalWrite(amarelo,LOW);
+  digitalWrite(verde,LOW);
+  delay(tmp*1000);
+}
+void f_amarelo(int tmp){
   digitalWrite(vermelho,LOW);
+  digitalWrite(amarelo,HIGH);
+  digitalWrite(verde,LOW);
+  delay(tmp*1000);
+}
+void f_verde(int tmp){
+  digitalWrite(vermelho,LOW);
+  digitalWrite(amarelo,LOW);
+  digitalWrite(verde,HIGH);
+  delay(tmp*1000);
 }

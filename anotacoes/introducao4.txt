@@ -10,8 +10,11 @@ usei :
 dentro de setup();
 coloquei que as portas seriam OUTPUT;
 
-criei uma função semaforo;
-void semaforo();
+criei funções para cada sinal(vermelho,amarelo e verde)
 
-chamei essa função no loop();
+chamei essas função no loop();
+
+quando estamos trabalhando com arduino, temos uma memória curta.
+por isso usar #define, ao invés de variaveis se torna mais viavel
+ja que consome menos memoria.
 
