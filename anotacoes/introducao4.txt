@@ -4,3 +4,14 @@ que vamos controlar.
 vamos criar um semaforo.
 3 leds.
 3 portas.
+
+usei :
+#define variavel numero_porta
+dentro de setup();
+coloquei que as portas seriam OUTPUT;
+
+criei uma função semaforo;
+void semaforo();
+
+chamei essa função no loop();
+
