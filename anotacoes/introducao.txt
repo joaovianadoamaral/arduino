@@ -1,0 +1,86 @@
+arduino é um microcontrolador que atraves de sensores e atuadores
+realiza tarefas.
+
+existe arduino paralelos e originais.
+ambos vão funcionar muito bem.
+
+podemos simular usando o site 'tinkercad.com'
+
+baixar o aplicativo do arduino para realizar codigos.
+
+arduinos possui programas com .ino ou .pde
+
+temos os arduino nano, uno e mega. em ordem de tamanho crescente respectivamente.
+
+a linguagem é muito próxima de c++.
+
+===========================================
+    resumos de portas
+iremos aprender as portas que vamos usar por enquanto.
+
+botão de reset: o arduino reset, reinicia todo o código.
+
+interface prata é a parte de conexão com o computador.
+
+conector preto é a parte de alimentação externa.
+ele não usa a parte preta quando usamos o cabo que conecta ao pc.
+
+portas digitais(13), embora tenhamos 13 portas, não são todas disponiveis.
+
+portas analógicas(A0 a A5,6 portas);
+
+todo conector GND  é terra.
+temos 2, e tanto faz o que eu vou usar.
+
+Vin serve como alimentação.(caracteristica interessante).
+5v e 3.3v tambem serve como alimentação.
+
+caso não tenhamos um led disponivel podemos usar o led da porta 13(escrito L ao lado dele).
+fica logo a baixo do terra .
+
+temos dois leds tambem tx e rx.
+
+tx -> ele recebe.
+rx -> ele transmitindo.
+
+portas 0 e 1 observe.
+
+
+temos um processador da placa, tipo um chipzinho.
+ele faz todo trabalho de calculo.
+
+
+temos um led on, que liga quando o arduino está acesso.
+
+
+conectores icsp e icsp2(mais adiante)
+
+circuito que parece outro chip.
+ele é o controlador da porta usp.
+interface usb. 
+
+circuito com simbolo infinito.
+protege a usb do computador em sobrecarga da placa.
+
+circuito que parece uma aranha diz quem vai alimentar o arduino.
+o prata ou o preto.
+
+aranha com perna faltando. 
+2, são reguladores de tensão.
+o maior é o de 5v e o menor é o de 3.3v
+
+
+um retangulo + arredondado é o meu clock.
+
+na placa paralela o retangulo grande é o processador da parada.
+são bem diferentes na estetica mas são o mesmo processador:
+atmega328p
+
+
+
+
+
+
+
+
+
