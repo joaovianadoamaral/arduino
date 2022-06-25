@@ -15,3 +15,23 @@ declaração igual no c;
 int led=10;
 
 coloquei um resistor de 1kohm, para não deixar a corrente tender ao infinito.
+==============================
+
+    lei de ohm
+tensao(v)=ampere(A)*ohms(omega);
+
+qual a resistencia mais indicada do led.
+quanto maior o valor da resistencia, menor o brilho.
+quanto maior o valor de resistencia, maior a corrente
+
+os leds comuns tenhem uma corrente máx comum deve ser no máximo 20mA.
+e os leds tem mais ou menos 2v de queda de tensão.
+
+logo com a corrente ja desejada, é facil achar que o reistor deve ser no minimo de 15o ohms.
+menos que isso a corrente cresce mt.
+
+as vezes não acha de 150 ohms.
+podemos colocar de 220 ohms.
+
+menores que 150 ohms, podemos reduzir a vida util do led
+
