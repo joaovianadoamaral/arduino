@@ -1,0 +1,76 @@
+dois metodos principais do arduino.
+setup() e loop()
+
+ambos os metodos são do tipo void, ou seja não tem retorno.
+
+começaremos a  entender as portas digitais.
+
+porta 13, lembra, integrada ao led L.
+colocar em high acende o led.
+
+setup(){//apenas uma vez
+
+    executado a primeira vez que o arduino é iniciado.
+    todas as configurações são iniciadas aqui.
+    todas as portas do arduino são entradas ou saidas.
+    contem quais seram então as portas entrada e saida.
+    iniciação de variaveis.
+}
+
+já o metodo loop(){//de forma ciclica
+
+    ele realmente é um loop e fica executando em loop as informações.
+    colocar todo o nosso comportamento de programa.
+    codificação fica aqui.
+    lembrar que funciona como um loop.
+    logo as variaveis podem mudar.
+
+}
+
+clicamos no reset, ele para o loop e volta para executar o setup novamente e
+chama o loop novamente.
+
+automaticamente o sistema define uma porta para o arduino.
+qual o modelo de placa deve ser passada tambem.
+arduino uno é o mais comum.
+
+ferramentas->portas->com6/com1 selecione a porta que esta ligada.
+ferramentas->placa->arduino/genuino uno.
+
+funciona mesmo se for paralela.
+
+==============
+interface 
+
+vzinho de certo verifica se meu codigo está correto.
+seta para direita carrega, mas compila antes. se tiver ceto passa para o arduino.
+=================
+
+precisamos informar as portas que vamos trabalhar, no caso a porta 13.
+portas digitais funcionam como uma onda quadrada.
+bit 0 ou 1.
+ligado ou desligado.
+alto ou baixo.
+
+alto é 5 volts.
+baixo é algo próximo a 0.(podemos dizer que é 0v);
+
+---------------------
+código.
+configurar o modo da porta.
+saída no caso.
+
+pinMode();//define o estado do pino.
+2 parametros: pino_usado,INPUT_OUTPUT;
+
+para definir o estado (ligado,desligado);
+vamos usar o:
+digitalWrite();
+2 parametros: pino_usado,HIGH_LOW;
+----------------------------
+metodo delay();
+faz uma pausa na programação antes de continuar a execução.
+1 parametro: tempo_em_mili_segundos
+ou seja 1000ms = 1 segundo.
+
+logo delay(1000); pausa de 1 segundo
