@@ -1,0 +1,21 @@
+portas PWM, método analogWrite, loop for.
+
+por enquanto estamos trabalhando com portas digitais,ou seja,
+ou o led está ligado ou desligado, mas e se eu precisar que o led 
+esteja no meio termo.
+
+resolvemos isso com a largura que a onda se encontra no high e no low.
+caso o tamanho do low seja maior que o do high 
+mais fraca vai ser a luz.
+
+portas PWM possuem valor de 8 bits, ou seja,
+de 0 a 255.
+
+portas PWM são as que possuem um sinal de  '~' na frente das analogicas.
+11,10,9,6,5,3.
+
+fiz basicamente um loop for que varia de 0 a 255.
+o analogWrite(led,qntd_luminosidade);
+só que se fizermos só isso o led vai variar mt rápido.
+e não vamos perceber, logo colocaremos um delay.
+
