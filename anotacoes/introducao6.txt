@@ -17,3 +17,9 @@ digitalRead();
 montei um circuito com o botão que enquanto não está pressionado.
 o gnd está ligado a porta 3.
 quando o botão é pressionado o 5 volts é acionado na porta 4.
+
+o programa basicamente foi alterado para que,
+quando clicado, ou seja, acionado e solto.
+ele acende o led.
+
+quando clicado novamente ele desliga o led

@@ -1,0 +1,15 @@
+resistores de pull down.
+
+circuito de chave aberta ligado a uma porta logica.
+
+só com 5 volts é errado, a porta precisa receber o low tambem.
+
+resistor pull down.
+enquanto o botão não é pressionado, a porta recebe o gnd.
+quando pressionado recebe o 5 volts
+resitor ligado ao terra.
+
+resistor pull up.
+enquantoo botão não é pressionado a porta recebe o 5v.
+quando pressionado recebe o gnd.
+resistor ligado ao 5v.
