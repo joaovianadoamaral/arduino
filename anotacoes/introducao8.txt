@@ -1,0 +1,12 @@
+LED RGB, Módulo led rgb
+
+o led rgb possui quatro pernas com um cathodo em comum entre as pernas  
+ou seja um terra em comum, as outras pernas cada uma
+representam o r g e b   
+
+o modulo rgb já possui os resistores implementados
+facilitando a vida do usuario   
+
+o HIGH pode ser substituido por 1
+o LOW pode ser substituido por 0.
+
